@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    background-color: #333333;
+    color: white;
+}
+
+:root{
+    --blue: #2F80ED;
+    --gray: #BDBDBD;
+    --black: #333333;
+    --red: #EB5757;
+}
+
+/*!----- NAV BAR -----!*/
+
+.title{
+    margin-top: 32px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.navList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.navList ul li{
+    display: inline;
+    justify-content: space-around;
+}
+
+.navList a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.divLine{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.line{
+    border: 2px solid var(--gray);
+    width: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .navList{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navList ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*!----- FIM NAV BAR -----!*/
+
+/*!----- CONTAINER -----!*/
+
+.container{
+    margin-top: 18px;
+    margin: 18px 380px 0px;
+}
+
+/*!----- FIM CONTAINER -----!*/
+
+/*!----- BARRA DE ADICIONAR TAREFAS -----!*/
+.addTarefas{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.addTarefas input{
+    height: 56px;
+    width: 476px;
+    left: 414px;
+    top: 184px;
+    border-radius: 12px;
+    border: 1px solid #BDBDBD;
+    margin-right: 25px; 
+}
+
+.addTarefas button{
+    height: 56px;
+    width: 109px;
+    left: 915px;
+    top: 184px;
+    border-radius: 12px;
+    background: var(--blue);
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.addTarefas button{
+    cursor: pointer;
+}
+
+/*!----- FIM BARRA DE ADICIONAR TAREFAS -----!*/
+
+/*!----- TAREFAS -----!*/
+
+.tarefas{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.tarefas ul{
+    width: 80vh;
+}
+
+.tarefas ul li{
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.tarefas ul li input{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    margin-right: 7px;
+}
+
+.icon{
+    position: absolute;
+    right: 30%;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.deleteButton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.deleteButton button{
+    background-color: var(--red);
+    color: white;
+    width: 124px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.deleteButton button:hover{
+    cursor: pointer;
+}
+
+/*!----- FIM TAREFAS -----!*/
