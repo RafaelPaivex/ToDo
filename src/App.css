@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.045em;
+    text-align: center;
+}
+
+/*! ======== NAVBAR ======== */
+
+nav{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 608px;
+    justify-content: space-around;
+}
+
+nav ul li{
+    width: 100%;
+    text-align: center;
+    
+}
+
+nav ul li p{
+    cursor: pointer;
+}
+
+nav ul li p a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.divLine{
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.divLine ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 608px;
+    justify-content: space-around;
+}
+
+.divLine ul li{
+    text-align: center;
+}
+
+.separators{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.separators ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 608px;
+    justify-content: space-around;
+}
+
+.line{
+    height: 2px;
+    background-color: #BDBDBD;
+    width: 608px;
+}
+
+.lineAll{
+    height: 4px;
+    width: 89px;
+    border-radius: 4px 4px 0px 0px;
+    margin-top: 15px;
+}
+
+.lineActive{
+    height: 4px;
+    width: 89px;
+    border-radius: 4px 4px 0px 0px;
+    margin-top: 15px;
+}
+
+.lineComplete{
+    height: 4px;
+    width: 89px;
+    border-radius: 4px 4px 0px 0px; 
+    margin-top: 15px;
+}
+
+.active{
+    background-color: #2F80ED;
+}
+
+/*! ======== END NAVBAR ======== */
+
+/*! ======== ADD TASK ======== */
+
+.addDetails{
+    display: flex;
+    justify-content: center;
+}
+
+.addDetails input{
+    height: 56px;
+    width: 476px;
+    left: 414px;
+    top: 184px;
+    border-radius: 12px;
+    border: 1px solid #BDBDBD;
+}
+
+.addDetails button{
+    height: 56px;
+    width: 109px;
+    left: 915px;
+    top: 184px;
+    border-radius: 12px;
+    background: #2F80ED;
+    color: white;
+    margin-left: 15px;
+    border: none;
+}
+
+.addDetails button:hover{
+    cursor: pointer;
+}
+
+/*! ======== END ADD TASK ======== */
+
+/*! ======== TASK LIST ======== */
+
+.containerTarefas{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.listaTarefas{
+    width: 608px;
+}
+
+.listaTarefas p input{
+    height: 24px;
+    width: 24px;
+    left: 415px;
+    top: 272px;
+    border-radius: 4px;
+    margin-right: 7px;
+}
+
+.listaTarefas p{
+    height: 22px;
+    width: 199px;
+    left: 446px;
+    top: 273px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.divButton{
+    display: flex;
+    justify-content: center;
+}
+
+.divButton div{
+    width: 608px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divButton div button{
+    background-color: #EB5757;
+    color: white;
+    border: none;
+    width: 124px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+/*! ======== END TASK LIST ======== */
+
+/*! ======== REMOVER ======== */
+
+.removePage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.removePage svg:hover{
+    cursor: pointer;
+}
+
+/*! ======== END REMOVER ======== */
